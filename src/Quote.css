@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Raleway;
+  src: url("../public/Raleway[wght].ttf");
+  font-weight: 500;
+}
+
+#main {
+  text-align: center;
+}
+
+#main {
+  height: 100vh;
+  background-color: rgb(39, 174, 96);
+  overflow: hidden;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: Raleway;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#developer {
+  margin-top: 15px;
+  color: white;
+}
+
+#quote-box {
+  min-height: 200px;
+  width: 37.5rem;
+  background-color: white;
+  padding: 35px 50px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+#quote-box > i {
+  /* vertical-align: baseline; */
+  font-size: 2.2rem;
+  margin-right: 6px;
+  text-align: center;
+}
+
+#text {
+  color: rgb(39, 174, 96);
+  font-size: 1.7rem;
+}
+
+#author {
+  text-align: right;
+  margin-top: 20px;
+  color: rgb(39, 174, 96);
+}
+
+#new-quote {
+  height: 35px;
+  background-color: rgb(39, 174, 96);
+  border: none;
+  width: 100px;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+}
+
+#icon-quote,
+#icon-twitter {
+  margin-right: 10px;
+  color: rgb(39, 174, 96);
+}
+#icon-quote {
+  vertical-align: top;
+}
+
+#bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#bottom a {
+  text-decoration: none;
+}
+
+#links {
+  /* gap: 10px; */
+}
